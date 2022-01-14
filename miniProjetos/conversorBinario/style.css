@@ -16,14 +16,14 @@ header > h1{
 }
 
 body{
-  background-image: linear-gradient(to left, var(--cor1), var(--cor2));
+  background-color: var(--cor2);
   margin: auto;
   text-align: center;
 }
 main{
-  width: 750px;
+  max-width: 680px;
   background-color: #fff;
-  height: 900px;
+  height: 820px;
   margin: auto;
   border-radius: 20px;
   box-shadow: 3px 3px 8px rgba(0,0,0,0.400)
@@ -76,5 +76,7 @@ div > output{
 }
 
 footer{
-  padding: 15px
+  padding: 15px;
+  color: #fff;
+  
 }
