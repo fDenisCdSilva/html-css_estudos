@@ -1,0 +1,80 @@
+:root{
+  --cor1: #DB88CA;
+  --cor2: #473B45;
+  --cor3: #422B3E;
+}
+
+header{
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header > h1{
+  padding: 15px;
+  font-size: 2.2em;
+  background-color: var(--cor3);
+  color: #fff;
+}
+
+body{
+  background-image: linear-gradient(to left, var(--cor1), var(--cor2));
+  margin: auto;
+  text-align: center;
+}
+main{
+  width: 750px;
+  background-color: #fff;
+  height: 900px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.400)
+}
+section{
+  background-color: var(--cor3);
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.400)
+  
+}
+#divbin{
+  padding-top: 80px
+}
+
+#bin{
+  margin: 16px;
+  width: 280px;
+  font-size: 2.5em;
+  padding: 5px;
+  text-align: center
+  
+}
+#msg{
+  border: 1px solid black;
+  width: 280px;
+  height: 48px;
+  margin: auto;
+  background-color: #ffffff;
+  padding : 6px;
+  font-size: 2.5em;
+  color: black;
+  font-weight: bold
+  
+}
+div > output{
+  font-weight: normal;
+}
+#vai{
+  width: 120px;
+  font-size: 1.5em;
+  padding: 5px;
+  margin-bottom: 10px
+}
+#go{
+  padding: 15px;
+}
+
+footer{
+  padding: 15px
+}
