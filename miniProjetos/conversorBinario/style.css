@@ -10,7 +10,7 @@ header{
 }
 header > h1{
   padding: 15px;
-  font-size: 2.2em;
+  font-size: 4vh;
   background-color: var(--cor3);
   color: #fff;
 }
@@ -21,9 +21,9 @@ body{
   text-align: center;
 }
 main{
-  max-width: 680px;
+  max-width: 80vw;
   background-color: #fff;
-  height: 820px;
+  height: 120vw;
   margin: auto;
   border-radius: 20px;
   box-shadow: 3px 3px 8px rgba(0,0,0,0.400)
@@ -31,33 +31,32 @@ main{
 section{
   background-color: var(--cor3);
   text-align: center;
-  width: 400px;
-  height: 400px;
+  width: 50vw;
+  height: 50vw;
   margin: auto;
   border-radius: 50%;
   box-shadow: 3px 3px 8px rgba(0,0,0,0.400)
   
 }
 #divbin{
-  padding-top: 80px
+  padding-top: 3vh
 }
 
 #bin{
   margin: 16px;
-  width: 280px;
-  font-size: 2.5em;
+  width: 30vw;
+  font-size: 2vh;
   padding: 5px;
   text-align: center
   
 }
 #msg{
   border: 1px solid black;
-  width: 280px;
-  height: 48px;
+  width: 18vh;
   margin: auto;
   background-color: #ffffff;
   padding : 6px;
-  font-size: 2.5em;
+  font-size: 2vh;
   color: black;
   font-weight: bold
   
@@ -66,10 +65,10 @@ div > output{
   font-weight: normal;
 }
 #vai{
-  width: 120px;
-  font-size: 1.5em;
-  padding: 5px;
-  margin-bottom: 10px
+  width: 10vh;
+  font-size: 1.3vh;
+  padding: 0.5vh;
+  margin-bottom: 10px;
 }
 #go{
   padding: 15px;
